@@ -26,6 +26,17 @@
             </div>
         </section>
 
+        <section class="info-prosjekt">
+            <h1><strong>2</strong>Hva handler dette prosjektet om</h1>
+            <form id="skjemaInfo">
+                <label>Tittel</label>
+                <input type="text" id="inpTittel" required>
+                <label>Beskrivelse</label>
+                <textarea id="taBeskrivelse"></textarea>
+                <button class="button expanded" type="submit">LAGRE PROSJEKT</button>
+            </form>
+        </section>
+
     </main>
 
     <div id="overlay">
@@ -37,19 +48,12 @@
 
     
 
-    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
-    <script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyC2dEv7IN6VB5qupITf9cC3L7SqCQ6HEPI",
-        authDomain: "interaksjonsdesign-7c53c.firebaseapp.com",
-        databaseURL: "https://interaksjonsdesign-7c53c.firebaseio.com",
-        projectId: "interaksjonsdesign-7c53c",
-        storageBucket: "interaksjonsdesign-7c53c.appspot.com",
-        messagingSenderId: "534085067256"
-    };
-    firebase.initializeApp(config);
-    </script>
+    <!-------------------------------
+
+        LIM INN DIN FIREBASE-KODE HER
+
+
+    -------------------------------->
 
     <script src="./index.js"></script>
 </body>
